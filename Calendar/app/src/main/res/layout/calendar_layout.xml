@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/lich"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="CALENDAR"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:textSize="50sp"
+        android:gravity="center"
+        android:textColor="@android:color/white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp">
+
+        <ImageButton
+            android:id="@+id/previousBtn"
+            android:layout_width="25dp"
+            android:layout_height="35dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/previous"/>
+
+        <TextView
+            android:id="@+id/current_Date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_weight="3"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:text="Thang/nam"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:textSize="28sp"
+            android:textStyle="italic" />
+
+        <ImageButton
+            android:id="@+id/nextBtn"
+            android:layout_width="25dp"
+            android:layout_height="35dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/next" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#40FFFFFF">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#80000000"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:text="CN"
+            android:textColor="#CC0000"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="T2"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:background="#80000000"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="T3"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:background="#80000000"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="T4"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:background="#80000000"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="T5"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:background="#80000000"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="T6"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:background="#80000000"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="T7"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:background="#80000000"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/gridview"
+        android:verticalSpacing="2dp"
+        android:horizontalSpacing="2dp"
+        android:numColumns="7">
+
+    </GridView>
+
+</LinearLayout>
